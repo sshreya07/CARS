@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: content-box;
+    z-index: -2;
+}
+
+#home{
+    background-image: url("../images/red-background.jpg");
+}
+
+#home .container #title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(105, 4, 4, 0.356);
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 7rem;
+    position: absolute;
+    top: 3rem;
+    left:32rem;
+    color: white;
+    text-align: center;
+    border-radius: 3rem;
+}
+
+#home .container .row #redCar{
+    width:40rem;
+    height: 40rem;
+    position: relative;
+    top: 25%;
+    right: 15%;
+}
+
+#home .container .row #blueCar{
+    width:31rem;
+    height: 30rem;
+    position: relative;
+    top: 28%;
+    left: 10%;
+    z-index: -1;
+
+}
+
+#GamePage{
+    background-image: url("../images/gamebg.jpg"); 
+    background-repeat: repeat-x;
+}
+
+.container #box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.container #box a:hover{
+    text-decoration: none;
+}
+
+.container #start{
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    backdrop-filter: blur(20px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(105, 4, 4, 0.356);
+    background-color: rgba(255, 255, 255, 0.2);
+    /* border-radius: 3em; */
+    z-index: 1;
+}
+
+#GamePage #Car{
+    width: 30rem;
+    height: 10rem;
+    position: absolute;
+    top: 78%;
+    left: 30%;
+    background-repeat: repeat-x;
+    animation: carAnimation 8s linear infinite ;
+}
+
+#GamePage .container .group #move{
+    border-radius: 50%; 
+    width: 12rem; 
+    height: 12rem;
+    backdrop-filter: blur(20px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(65, 65, 65, 0.356);
+    background-color: rgba(255, 255, 255, 0.2);font-size: 24px;
+}
+
+#GamePage .container .result{
+    position: absolute; 
+    top:80%;right: 5%; 
+    width: 25rem; height: 7rem;
+    backdrop-filter: blur(20px);
+        border: solid 2px transparent;
+        background-clip: padding-box;
+        box-shadow: 10px 10px 10px rgba(65, 65, 65, 0.356);
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding-left: 2rem;
+}
+
+#GamePage #fuel{
+    width: 5rem;
+    height: 5rem;
+}
+
+#GamePage #cloud1{
+    width: 20rem;
+    height: 10rem;
+    position: absolute;
+    background-repeat: repeat-x;
+    animation: cloudAnimation 9s linear infinite;
+
+} 
+
+#GamePage #cloud2{
+    width: 20rem;
+    height: 10rem;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    background-repeat: repeat-x;
+    animation: cloudAnimation 8s linear infinite;
+
+} 
+
+
+#GamePage #cloud3{
+    width: 20rem;
+    height: 10rem;
+    position: absolute;
+    left: 75%;
+    background-repeat: repeat-x;
+    animation: cloudAnimation 8s linear infinite;
+
+} 
+
+#GamePage #cloud4{
+    width: 20rem;
+    height: 10rem;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    background-repeat: repeat-x;
+    animation: cloudAnimation 8s linear infinite;
+
+} 
+
+@keyframes cloudAnimation {
+    100%{
+        transform: translateX(-1200px);
+        opacity: .8;
+    }
+}
+
+@keyframes carAnimation {
+    100%{
+        transform: translateX(1100);
+    }
+}
