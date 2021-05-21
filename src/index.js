@@ -72,13 +72,15 @@ function run(e){
     if(petrol <= 0 ){
         console.log("Quit");
         alert("Game Over");
-        window.location.assign("./index.html");
+        window.location.assign("../index.html");
+
 
     }
 
     if(totalDist >= endLocation){
         alert("Bingo! You won, Replay");
-        window.location.assign("./index.html");
+        window.location.assign("../index.html");
+
     }
 
     dist.innerHTML = totalDist;
@@ -89,7 +91,7 @@ function run(e){
 
 function quit(e){
     alert("you sure want to quit");
-    window.location.assign("./index.html");
+    window.location.assign("../index.html");
 
     e.preventDefault();
 }
