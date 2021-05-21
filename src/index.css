@@ -234,7 +234,7 @@ body{
         width: 8rem;
         height: 8rem;
         left: 70%;
-        top: 30rem;
+        top: 28rem;
     }
 
     #GamePage .container .group #quit{
@@ -252,13 +252,13 @@ body{
     #GamePage #Car{
         width: 15rem;
         height: 6rem;
-        top: 36rem;
+        top: 32rem;
         left: 3rem;
     }
 
     #GamePage #oilImg{
         width: 38rem;
-        height: 800px;
+        height: 700px;
         left: -10px;
     }
 }
