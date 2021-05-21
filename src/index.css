@@ -216,8 +216,8 @@ body{
     }    
 
     .container .start{
-        width: 10rem;
-        height: 10rem;
+        width: 12rem;
+        height: 12rem;
         position: relative;
         right: 5rem;
         bottom: 4rem;
@@ -249,11 +249,11 @@ body{
     .home .container #points{
         position: absolute;
         top: 6rem;
-        left: 3rem;
+        left: 1rem;
     }
 
     #instructPage .container .start{
-        bottom: -10rem;
+        bottom: -12rem;
     }
 
     #GamePage .container .group #move{
