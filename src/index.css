@@ -233,7 +233,7 @@ body{
     #GamePage .container .group #move{
         width: 8rem;
         height: 8rem;
-        left: 70%;
+        left: 68%;
         top: 28rem;
     }
 
@@ -252,13 +252,18 @@ body{
     #GamePage #Car{
         width: 15rem;
         height: 6rem;
-        top: 32rem;
-        left: 3rem;
+        top: 30rem;
+        left: 1rem;
     }
 
     #GamePage #oilImg{
-        width: 38rem;
+        width: 30rem;
         height: 700px;
         left: -10px;
+    }
+
+    #GamePage #fuel{
+        width: 2rem;
+        height: 2rem;
     }
 }
