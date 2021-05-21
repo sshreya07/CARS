@@ -83,8 +83,8 @@ function run(e){
 
     }
 
-    dist.innerHTML = totalDist;
-    petrolRem.innerHTML = petrolLeft;
+    dist.innerHTML = totalDist + ' Km';
+    petrolRem.innerHTML = petrolLeft + ' L';
 
     e.preventDefault();
 }
