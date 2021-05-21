@@ -200,7 +200,7 @@ body{
         width:26rem;
         height: 22rem;
         position: relative;
-        top: 18rem;
+        top: 15rem;
         left: 1rem;
     }    
 
@@ -208,7 +208,7 @@ body{
         width: 10rem;
         height: 10rem;
         position: relative;
-        right: 7rem;
+        right: 5rem;
         bottom: 4rem;
     }
 
@@ -225,6 +225,7 @@ body{
         height: auto;
         position: relative;
         left: 0;
+        top: 1rem;
         padding: 1rem 2rem 1rem 4rem;
         border-radius: 2rem;
     }
@@ -233,11 +234,11 @@ body{
         width: 8rem;
         height: 8rem;
         left: 70%;
-        top: 35rem;
+        top: 30rem;
     }
 
     #GamePage .container .group #quit{
-        right: 10px;
+        right: 4px;
     }
 
     #GamePage .container .result{
@@ -251,7 +252,7 @@ body{
     #GamePage #Car{
         width: 15rem;
         height: 6rem;
-        top: 39rem;
+        top: 36rem;
         left: 3rem;
     }
 
