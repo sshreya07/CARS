@@ -28,11 +28,6 @@ function run(e){
     petrolLeft = petrol - (nextStep*2)
     petrol = petrolLeft;
 
-    console.log("previous postion: " + prevStep);
-    console.log("next position: " + nextStep);
-    console.log("total distance covered: " + totalDist);
-    console.log("petrol left: " + petrolLeft);
-
     if(totalDist === 6){
         petrol += refillAmount;
         bg.style.display ='block';

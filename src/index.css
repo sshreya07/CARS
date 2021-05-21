@@ -261,6 +261,7 @@ body{
         height: 8rem;
         left: 68%;
         top: 28rem;
+        color: black;
     }
 
     #GamePage .container .group #quit{
