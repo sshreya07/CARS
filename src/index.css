@@ -86,8 +86,11 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
-    
-    /* border-radius: 3em; */
+    backdrop-filter: blur(20px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(105, 4, 4, 0.356);
+    background-color: rgba(255, 255, 255, 0.2);
     z-index: 1;
 }
 
