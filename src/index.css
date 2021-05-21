@@ -246,14 +246,10 @@ body{
         height: 0;
     }
 
-    #instructPage .container .title{
-        left: 5rem;
-    }
-
     .home .container #points{
         position: absolute;
         top: 6rem;
-        left: 6.5rem;
+        left: 3rem;
     }
 
     #instructPage .container .start{
